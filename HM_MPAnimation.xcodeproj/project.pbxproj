@@ -14,6 +14,7 @@
 		AD377C5B22D6162C0053B475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD377C5922D6162C0053B475 /* LaunchScreen.storyboard */; };
 		AD377C6622D6162C0053B475 /* HM_MPAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD377C6522D6162C0053B475 /* HM_MPAnimationTests.swift */; };
 		AD377C7122D6162C0053B475 /* HM_MPAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD377C7022D6162C0053B475 /* HM_MPAnimationUITests.swift */; };
+		AD377C8022D616A20053B475 /* HMAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD377C7F22D616A20053B475 /* HMAnimationLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AD377C6C22D6162C0053B475 /* HM_MPAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HM_MPAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD377C7022D6162C0053B475 /* HM_MPAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HM_MPAnimationUITests.swift; sourceTree = "<group>"; };
 		AD377C7222D6162C0053B475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD377C7F22D616A20053B475 /* HMAnimationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMAnimationLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AD377C4F22D6162A0053B475 /* HM_MPAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				AD377C7E22D6165D0053B475 /* AnimationLayer */,
 				AD377C5022D6162A0053B475 /* AppDelegate.swift */,
 				AD377C5222D6162A0053B475 /* ViewController.swift */,
 				AD377C5422D6162A0053B475 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				AD377C7222D6162C0053B475 /* Info.plist */,
 			);
 			path = HM_MPAnimationUITests;
+			sourceTree = "<group>";
+		};
+		AD377C7E22D6165D0053B475 /* AnimationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AD377C7F22D616A20053B475 /* HMAnimationLayer.swift */,
+			);
+			path = AnimationLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD377C8022D616A20053B475 /* HMAnimationLayer.swift in Sources */,
 				AD377C5322D6162A0053B475 /* ViewController.swift in Sources */,
 				AD377C5122D6162A0053B475 /* AppDelegate.swift in Sources */,
 			);

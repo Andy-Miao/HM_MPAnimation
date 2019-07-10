@@ -10,8 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private lazy var animationLayer:HMAnimationLayer = {
+        let layer = HMAnimationLayer.init(frame: CGRect(x: 100, y: 100, width: 2, height: 15))
+        return layer
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.addSubview(animationLayer);
         // Do any additional setup after loading the view.
     }
 
